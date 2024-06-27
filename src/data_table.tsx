@@ -39,10 +39,10 @@ export default function DataTable({ maxminCrops, averages }: Props) {
           {year.crop}
         </Table.Td>
         <Table.Td style={{ textAlign: "center" }} className="border">
-          {year.averageArea.toFixed(2)}
+          {year.averageArea.toFixed(3)}
         </Table.Td>
         <Table.Td style={{ textAlign: "center" }} className="border">
-          {year.averageYield.toFixed(2)}
+          {year.averageYield.toFixed(3)}
         </Table.Td>
       </Table.Tr>
     ));
